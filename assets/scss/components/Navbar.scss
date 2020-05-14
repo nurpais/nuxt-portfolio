@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.logo {
+  width: 50px;
+  display: block;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-item {
+  margin-left: 1rem;
+  @include media-up(sm) {
+    margin-left: 30px;
+  }
+}

@@ -1,0 +1,57 @@
+// Media query mixin
+@mixin media-up($size) {
+  $min: map-get($breakpoints, $size);
+  @media (min-width: $min) {
+    @content;
+  }
+}
+
+// Container mixin
+@mixin make-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@mixin make-container-max-widths {
+  @each $breakpoint, $max-width in $container-max-widths {
+    @include media-up($breakpoint) {
+      max-width: $max-width;
+    }
+  }
+}
+
+@for $i from 1 through 6 {
+  .m-#{$i} {
+    margin: 0.5rem * $i;
+  }
+  .mt-#{$i} {
+    margin-top: 0.5rem * $i;
+  }
+  .mr-#{$i} {
+    margin-right: 0.5rem * $i;
+  }
+  .mb-#{$i} {
+    margin-bottom: 0.5rem * $i;
+  }
+  .ml-#{$i} {
+    margin-left: 0.5rem * $i;
+  }
+
+  .p-#{$i} {
+    padding: 0.5rem * $i;
+  }
+  .pt-#{$i} {
+    padding-top: 0.5rem * $i;
+  }
+  .pr-#{$i} {
+    padding-right: 0.5rem * $i;
+  }
+  .pb-#{$i} {
+    padding-bottom: 0.5rem * $i;
+  }
+  .pl-#{$i} {
+    padding-left: 0.5rem * $i;
+  }
+}

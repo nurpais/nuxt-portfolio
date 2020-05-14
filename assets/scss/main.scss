@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import "base/minireset";
+@import "base/vars";
+@import "base/fonts";
+@import "base/breakpoints";
+@import "base/mixins";
+@import "base/helps";
+@import "components/Navbar";
+@import "components/Hero";
+@import "components/Footer";
+
+
+
+html {
+  background-color: $body-background-color;
+  font-size: $body-size;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: $body-min-width;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+body {
+  color: $body-color;
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  font-weight: $body-font-weight;
+  line-height: $body-line-height;
+}
+
+.container {
+  @include make-container;
+  @include make-container-max-widths;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}

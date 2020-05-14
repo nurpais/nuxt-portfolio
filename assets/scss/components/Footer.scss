@@ -1,0 +1,34 @@
+.footer {
+  padding: 100px 0;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  @include media-up(md) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3rem;
+  @include media-up(sm) {
+    flex-direction: row;
+  }
+  @include media-up(md) {
+    margin: 0;
+  }
+  li {
+    display: inline-block;
+    margin-bottom: 5px;
+    @include media-up(sm) {
+      margin-right: 45px;
+    }
+    @include media-up(md) {
+      margin: 0;
+      margin-left: 45px;
+    }
+  }
+}
