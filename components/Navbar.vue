@@ -5,14 +5,14 @@
     </nuxt-link>
     <nav class="nav">
       <ul class="nav-list">
-        <li class="nav-item border-in">
-          <nuxt-link to="/">work</nuxt-link>
+        <li class="nav-item">
+          <nuxt-link to="/work" class="border-in">work</nuxt-link>
         </li>
-        <li class="nav-item border-in">
-          <nuxt-link to="/">about</nuxt-link>
+        <li class="nav-item">
+          <nuxt-link to="/" class="border-in">about</nuxt-link>
         </li>
-        <li class="nav-item border-in">
-          <nuxt-link to="/">contact</nuxt-link>
+        <li class="nav-item">
+          <nuxt-link to="/" class="border-in">contact</nuxt-link>
         </li>
       </ul>
     </nav>

@@ -9,8 +9,6 @@
 @import "components/Hero";
 @import "components/Footer";
 
-
-
 html {
   background-color: $body-background-color;
   font-size: $body-size;
@@ -40,4 +38,110 @@ img {
 a {
   color: #000;
   text-decoration: none;
+}
+
+.pixel {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  @include media-up(md) {
+    flex-direction: row;
+    margin-top: 140px;
+  }
+}
+
+.pixel-info {
+  font-size: 24px;
+  order: 2;
+  text-align: center;
+  margin-top: 1rem;
+  h2 {
+    margin-bottom: 1rem;
+  }
+  @include media-up(md) {
+    order: 1;
+    width: 40%;
+    text-align: left;
+    font-size: 36px;
+    margin-top: 0;
+  }
+}
+.pixel-img {
+  @include media-up(md) {
+    order: 2;
+    width: 60%;
+  }
+}
+
+.services {
+  margin-top: 90px;
+  @include media-up(md) {
+    margin-top: 140px;
+  }
+}
+
+.services-title {
+  max-width: 750px;
+}
+.services-list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @include media-up(md) {
+    margin-top: 70px;
+  }
+}
+.services-item {
+  width: 100%;
+  margin-bottom: 2rem;
+  @include media-up(md) {
+    width: 46%;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  p {
+    color: #747474;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    @include media-up(md) {
+      font-size: 20px;
+    }
+  }
+}
+
+.together {
+  margin-top: 90px;
+  padding-bottom: 90px;
+  @include media-up(md) {
+    margin-top: 140px;
+    padding-bottom: 140px;
+  }
+}
+.together-title {
+  max-width: 500px;
+  margin-bottom: 50px;
+  @include media-up(md) {
+    margin-bottom: 70px;
+  }
+}
+
+
+
+.work {
+  padding-top: 70px;
+  @include media-up(md){
+  padding-top: 70px;
+
+  }
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .3s;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
 }

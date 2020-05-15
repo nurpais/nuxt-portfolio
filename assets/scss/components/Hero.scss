@@ -1,18 +1,21 @@
 .hero {
   max-width: 750px;
-  margin-top: 200px;
+  margin-top: 140px;
+  @include media-up(md) {
+    margin-top: 200px;
+  }
 }
 .hero-waves {
   width: 50px;
 }
 .hero-title {
   font-size: 28px;
-  @include media-up(sm){
-  font-size: 38px;
+  @include media-up(sm) {
+    font-size: 38px;
   }
-  @include media-up(md){
+  @include media-up(md) {
     font-size: 58px;
-    }
+  }
   font-weight: 700;
   line-height: 1.2;
   margin-top: 2rem;
@@ -21,9 +24,5 @@
 .hero-text {
   margin-top: 2rem;
   max-width: 500px;
-}
-
-.hero-action {
-  margin-top: 3rem;
-  display: inline-block;
+  margin-bottom: 3rem;
 }

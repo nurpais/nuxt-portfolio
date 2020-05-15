@@ -1,6 +1,20 @@
 <template>
-  <div class="root">
+  <div class="container">
+    <Navbar />
     <nuxt />
+    <Footer />
   </div>
 </template>
 
+
+<script>
+import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
+
+export default {
+  components: {
+    Navbar,
+    Footer
+  }
+};
+</script>

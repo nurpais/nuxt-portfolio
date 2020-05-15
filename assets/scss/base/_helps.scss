@@ -1,5 +1,6 @@
 .border-in {
   position: relative;
+  padding-bottom: 5px;
   &::after {
     opacity: 0;
     transform: translateY(6px);
@@ -20,10 +21,15 @@
     height: 2px;
     background-color: #000;
   }
+  &.text-gray::after {
+    background-color: #747474;
+  }
 }
 
 .border-out {
   position: relative;
+  padding-bottom: 5px;
+
   &::after {
     opacity: 1;
     transform: translateY(0);
@@ -44,6 +50,9 @@
     height: 2px;
     background-color: #000;
   }
+  &.text-gray::after {
+    background-color: #747474;
+  }
 }
 
 .lead {
@@ -51,4 +60,24 @@
   @include media-up(md) {
     font-size: 22px;
   }
+}
+
+.title-md {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.4;
+  @include media-up(sm) {
+    font-size: 36px;
+  }
+  @include media-up(md) {
+    font-size: 46px;
+  }
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-gray {
+  color: #747474;
 }
