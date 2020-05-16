@@ -22,7 +22,7 @@
   }
 }
 
-@for $i from 1 through 6 {
+@for $i from 1 through 7 {
   .m-#{$i} {
     margin: 0.5rem * $i;
   }
@@ -54,4 +54,8 @@
   .pl-#{$i} {
     padding-left: 0.5rem * $i;
   }
+}
+
+.pt-0 {
+  padding-top: 0 !important;
 }

@@ -1,5 +1,8 @@
 module.exports = {
   mode: "universal",
+  server: {
+    host: "ec2-13-235-235-3.ap-south-1.compute.amazonaws.com"
+  },
   /*
    ** Headers of the page
    */

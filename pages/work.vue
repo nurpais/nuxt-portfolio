@@ -1,7 +1,9 @@
 <template>
-  <div class="work">
-    <h1 class="title-md">My Work</h1>
-    <p class="lead mt-2 text-gray">List of projects will here very soon.</p>
+  <div class="page">
+    <div class="work">
+      <h1 class="title">My work</h1>
+      <p class="lead text-gray">List of projects will here very soon.</p>
+    </div>
     <Together />
   </div>
 </template>

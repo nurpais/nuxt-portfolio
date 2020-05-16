@@ -1,7 +1,7 @@
 <template>
   <main class="hero">
     <img class="hero-waves" src="../assets/images/waving.gif" alt />
-    <h1 class="hero-title">
+    <h1 class="hero-title main-title">
       Hey there *waves*,
       <br />my name is Nurpais,
       <br />a freelance front-end developer based in Bishkek.

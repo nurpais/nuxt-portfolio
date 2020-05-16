@@ -9,7 +9,7 @@
           <nuxt-link to="/work" class="border-in">work</nuxt-link>
         </li>
         <li class="nav-item">
-          <nuxt-link to="/" class="border-in">about</nuxt-link>
+          <nuxt-link to="/about" class="border-in">about</nuxt-link>
         </li>
         <li class="nav-item">
           <nuxt-link to="/" class="border-in">contact</nuxt-link>

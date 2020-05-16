@@ -1,17 +1,17 @@
 <template>
   <div class="root">
     <Hero />
-    <section class="pixel">
+    <section class="pixel section">
       <div class="pixel-info">
-        <h2 class="text-bold">I build pixel-perfect web solutions for all devices.</h2>
+        <h2 class="text-bold title-md">I build pixel-perfect web solutions for all devices.</h2>
         <a href="#" class="lead border-out">view my work</a>
       </div>
       <img class="pixel-img" src="../assets/images/screen-1.png" alt />
     </section>
 
-    <section class="services">
+    <section class="services section">
       <h2
-        class="title-md services-title"
+        class="title services-title"
       >I can take responsibility for one part of your project, or deliver the whole solution.</h2>
       <ul class="services-list">
         <li class="services-item">
@@ -41,7 +41,6 @@
       </ul>
     </section>
     <Together />
-    <Footer />
   </div>
 </template>
 

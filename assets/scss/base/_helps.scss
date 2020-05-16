@@ -62,7 +62,7 @@
   }
 }
 
-.title-md {
+.title {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.4;
@@ -80,4 +80,31 @@
 
 .text-gray {
   color: #747474;
+}
+
+.main-title {
+  font-size: 28px;
+  @include media-up(sm) {
+    font-size: 38px;
+  }
+  @include media-up(md) {
+    font-size: 58px;
+  }
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.title-md {
+  font-size: 24px;
+  @include media-up(md) {
+    font-size: 36px;
+  }
+}
+
+
+.page {
+  padding-top: 100px;
+  @include media-up(md){
+    padding-top: 160px;
+  }
 }
