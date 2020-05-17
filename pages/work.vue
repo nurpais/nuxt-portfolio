@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <div class="work">
+    <div class="work mt-block">
       <h1 class="title">My work</h1>
       <p class="lead text-gray">List of projects will here very soon.</p>
     </div>

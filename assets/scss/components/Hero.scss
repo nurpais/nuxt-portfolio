@@ -1,10 +1,8 @@
 .hero {
   max-width: 750px;
   margin-top: 140px;
-  padding-bottom: 45px;
   @include media-up(md) {
     margin-top: 200px;
-    padding-bottom: 70px;
   }
 }
 .hero-waves {

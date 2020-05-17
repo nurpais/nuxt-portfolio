@@ -1,0 +1,44 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  margin-top: 70px;
+  @include media-up(md) {
+    justify-content: space-between;
+    margin-top: 140px;
+  }
+}
+
+.skills-item {
+  flex-basis: 100%;
+  margin-bottom: 3rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+  p {
+    line-height: 1.8;
+  }
+  @include media-up(md) {
+    flex-basis: 46%;
+    &:last-child {
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+.skills-lang {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    flex-basis: 50%;
+    margin-bottom: 0.8rem;
+    &::before {
+      content: "\2713";
+      padding-right: 10px;
+    }
+  }
+}

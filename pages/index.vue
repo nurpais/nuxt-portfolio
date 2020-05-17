@@ -1,7 +1,7 @@
 <template>
   <div class="root">
     <Hero />
-    <section class="pixel section">
+    <section class="pixel mt-block">
       <div class="pixel-info">
         <h2 class="text-bold title-md">I build pixel-perfect web solutions for all devices.</h2>
         <a href="#" class="lead border-out">view my work</a>
@@ -9,7 +9,7 @@
       <img class="pixel-img" src="../assets/images/screen-1.png" alt />
     </section>
 
-    <section class="services section">
+    <section class="services mt-block">
       <h2
         class="title services-title"
       >I can take responsibility for one part of your project, or deliver the whole solution.</h2>

@@ -8,6 +8,7 @@
 @import "components/Navbar";
 @import "components/Hero";
 @import "components/Footer";
+@import "components/Skills";
 
 html {
   background-color: $body-background-color;
@@ -40,12 +41,7 @@ a {
   text-decoration: none;
 }
 
-.section {
-  padding: 45px 0;
-  @include media-up(md) {
-    padding: 70px 0;
-  }
-}
+
 
 .pixel {
   display: flex;
@@ -110,10 +106,8 @@ a {
 }
 
 .together {
-  margin-top: 90px;
   padding-bottom: 90px;
   @include media-up(md) {
-    margin-top: 140px;
     padding-bottom: 140px;
   }
 }
@@ -142,4 +136,16 @@ a {
 
 .about-title {
   margin-top: 70px;
+}
+
+.contact-text {
+  margin-bottom: 3rem;
+  max-width: 700px;
+}
+
+.mt-block {
+  margin-top: 80px;
+  @include media-up(md) {
+    margin-top: 160px;
+  }
 }

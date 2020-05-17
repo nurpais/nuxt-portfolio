@@ -12,7 +12,7 @@
           <nuxt-link to="/about" class="border-in">about</nuxt-link>
         </li>
         <li class="nav-item">
-          <nuxt-link to="/" class="border-in">contact</nuxt-link>
+          <nuxt-link to="/contact" class="border-in">contact</nuxt-link>
         </li>
       </ul>
     </nav>

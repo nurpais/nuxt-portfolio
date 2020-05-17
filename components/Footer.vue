@@ -6,7 +6,7 @@
     <div class="footer-text">Bishkek, Kyrgyzstan</div>
     <ul class="footer-links">
       <li>
-        <a class="border-in" href="mailto:orozulbaev@gmail.com">orozulbaev@gmail.com</a>
+        <a class="border-in" href="https://github.com/nurpais">github</a>
       </li>
       <li>
         <a class="border-in" href="https://www.linkedin.com/in/nurpais/">linkedin</a>

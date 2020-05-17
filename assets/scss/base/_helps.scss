@@ -100,11 +100,3 @@
     font-size: 36px;
   }
 }
-
-
-.page {
-  padding-top: 100px;
-  @include media-up(md){
-    padding-top: 160px;
-  }
-}
