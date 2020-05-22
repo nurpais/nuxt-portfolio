@@ -9,6 +9,6 @@
     <p
       class="hero-text lead"
     >I craft high-quality, bespoke digital solutions for forward-thinking brands, like yours.</p>
-    <a href="/" class="hero-action border-out lead">learn more</a>
+    <nuxt-link to="/about" class="hero-action border-out lead">learn more</nuxt-link>
   </main>
 </template>
