@@ -41,8 +41,6 @@ a {
   text-decoration: none;
 }
 
-
-
 .pixel {
   display: flex;
   align-items: center;
@@ -135,7 +133,10 @@ a {
 }
 
 .about-title {
-  margin-top: 70px;
+  margin-top: 40px;
+  @include media-up(md) {
+    margin-top: 70px;
+  }
 }
 
 .contact-text {
@@ -147,5 +148,43 @@ a {
   margin-top: 80px;
   @include media-up(md) {
     margin-top: 160px;
+  }
+}
+
+.works {
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .works-img {
+    overflow: hidden;
+    @include media-up(md) {
+      height: 350px;
+      img {
+        height: 100% !important;
+      }
+    }
+  }
+  @include media-up(md) {
+    margin-top: 70px;
+  }
+  .works-item {
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+    @include media-up(md) {
+      flex-basis: 48%;
+      margin-bottom: 4%;
+    }
+  }
+  .works-link {
+    img {
+      transition: all 0.3s;
+    }
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
   }
 }

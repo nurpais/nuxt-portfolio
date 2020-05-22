@@ -4,7 +4,7 @@
     <section class="pixel mt-block">
       <div class="pixel-info">
         <h2 class="text-bold title-md">I build pixel-perfect web solutions for all devices.</h2>
-        <a href="#" class="lead border-out">view my work</a>
+        <a href="https://cinema-bf2b6.web.app" class="lead border-out">view my work</a>
       </div>
       <img class="pixel-img" src="../assets/images/screen-1.png" alt />
     </section>
